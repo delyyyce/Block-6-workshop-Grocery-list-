@@ -1,0 +1,56 @@
+h1 {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.box {
+    width: 30%; 
+    padding: 30px; 
+    background-color: #e2e2e2;
+    border-radius: 10px; 
+    text-align: center;
+    margin: 0 10px; 
+}
+
+.pantry img {
+    width: 50%; 
+    height: auto; 
+}
+
+.freezer img {
+    width: 55%;
+    height: auto;
+    }
